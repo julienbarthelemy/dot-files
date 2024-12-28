@@ -31,6 +31,7 @@ return {
           "python",
           "c",
           "php",
+          "rust",
           "query",
         },
       })

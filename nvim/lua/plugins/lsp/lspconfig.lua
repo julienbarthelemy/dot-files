@@ -35,6 +35,11 @@ return {
       capabilities = capabilities,
     })
 
+    -- configure rust server
+    lspconfig["rust_analyzer"].setup({
+      capabilities = capabilities,
+    })
+
     -- configure svelte server
     lspconfig["svelte"].setup({
       capabilities = capabilities,
