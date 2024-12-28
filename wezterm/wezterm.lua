@@ -1,6 +1,5 @@
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
-local act = wezterm.action
 
 -- This will hold the configuration.
 local config = wezterm.config_builder()
@@ -14,6 +13,7 @@ config.cursor_blink_rate = 500
 config.term = "xterm-256color"
 
 config.font = wezterm.font("Iosevka Custom")
+config.prefer_egl = true
 config.font_size = 17.0
 
 --window settings
@@ -28,7 +28,7 @@ config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
 
-config.window_decorations = "RESIZE"
+config.window_decorations = "NONE | RESIZE"
 config.default_prog = { "powershell.exe", "-NoLogo" }
 config.initial_cols = 128
 config.initial_rows = 32
