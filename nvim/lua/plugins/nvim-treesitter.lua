@@ -22,7 +22,6 @@ return {
           "tsx",
           "html",
           "css",
-          "java",
           "markdown",
           "markdown_inline",
           "lua",
