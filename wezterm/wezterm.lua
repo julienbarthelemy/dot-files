@@ -17,18 +17,11 @@ config.prefer_egl = true
 config.font_size = 17.0
 
 --window settings
-config.window_padding = {
-	left = 0,
-	right = 0,
-	top = 0,
-	bottom = 0,
-}
-
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
 
-config.window_decorations = "NONE | RESIZE"
+config.window_decorations = "RESIZE"
 config.default_prog = { "powershell.exe", "-NoLogo" }
 config.initial_cols = 128
 config.initial_rows = 32
