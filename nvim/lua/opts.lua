@@ -17,7 +17,7 @@ vim.opt.showmode = false
 vim.opt.signcolumn = 'yes'
 
 vim.opt.scrolloff = 8
-
+vim.g.netrw_banner = 0
 vim.opt.updatetime = 250
 
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
