@@ -27,8 +27,8 @@ config.initial_cols = 128
 config.initial_rows = 32
 
 --styles
-config.color_scheme_dirs = { 'C:/Users/Julien/.config/wezterm' }
-config.color_scheme = 'roseprime'
+config.color_scheme_dirs = { wezterm.home_dir .. "/.config/wezterm" }
+config.color_scheme = "roseprime"
 
 config.window_frame = {
 	font = wezterm.font({ family = "Iosevka Custom", weight = "Regular" }),
