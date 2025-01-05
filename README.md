@@ -5,14 +5,14 @@
 <details><summary> MacOS & Linux </summary>
 
 ```
-git clone https://github.com/julienbarthelemy/dev-config.git "${XDG_CONFIG_HOME:-$HOME/.config}"
+git clone https://github.com/julienbarthelemy/dot-files.git "${XDG_CONFIG_HOME:-$HOME/.config}"
 ```
 
 </details>
 <details><summary> Windows </summary>
 
 ```
-git clone git clone https://github.com/julienbarthelemy/dev-config.git $env:USERPROFILE\.config"
+git clone git clone https://github.com/julienbarthelemy/dot-files.git $env:USERPROFILE\.config"
 ```
 
 </details>
@@ -45,7 +45,7 @@ $env:XDG_CONFIG_HOME = "$HOME/.config"
 
 # Neovim Setup
 
-I use Neovim instead of Vim as I find it easier to use LUA. You can achieve the same with VIM.
+I use [Neovim](https://neovim.io/) instead of Vim as I find it easier to use LUA. You can achieve the same with VIM.
 I use the default Node installation with nvm.
 My colorscheme is [RosePrime](https://github.com/cdmill/neomodern.nvim) which I modified a bit, for both the terminal and Neovim
 
