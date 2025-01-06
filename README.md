@@ -43,6 +43,22 @@ $env:XDG_CONFIG_HOME = "$HOME/.config"
 
 </details>
 
+<details><summary> Faster cd </summary>
+
+Quick tip, you can speed up your workflow with [fzf](https://github.com/junegunn/fzf) and [fd](https://github.com/sharkdp/fd?tab=readme-ov-file#installation) and these commands on your `$PROFILE`
+
+```
+function find_fast { (cd ~) -or (cd $(fd --type d --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)) }
+Set-Alias f find_fast
+```
+
+or with Bash *no need to install fd*
+
+```
+alias f='cd ~ && cd $(find ~/code --hidden --exclude .git --exclude node_module --exclude .cache --exclude .npm --exclude .mozilla --exclude .meteor --exclude .nv | fzf)'
+```
+</details>
+
 # Neovim Setup
 
 I use [Neovim](https://neovim.io/) instead of Vim as I find it easier to use LUA. You can achieve the same with VIM.
