@@ -30,10 +30,9 @@ return {
           "gitignore",
           "python",
           "c",
-          "cpp",
+          "sql",
           "php",
           "rust",
-          "query",
         },
       })
     end,
