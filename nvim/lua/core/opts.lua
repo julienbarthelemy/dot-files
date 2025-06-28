@@ -15,6 +15,7 @@ vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.showmode = false
 vim.opt.signcolumn = 'yes'
+vim.opt.winborder = 'rounded'
 
 vim.opt.scrolloff = 8
 vim.g.netrw_banner = 0

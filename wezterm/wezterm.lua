@@ -14,7 +14,7 @@ config.term = "xterm-256color"
 
 config.font = wezterm.font("Iosevka Custom")
 config.prefer_egl = true
-config.font_size = 18.0
+config.font_size = 17.0
 
 --window settings
 config.tab_bar_at_bottom = true

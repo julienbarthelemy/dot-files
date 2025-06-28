@@ -16,6 +16,7 @@ return {
         auto_install = true,
         -- ensure these language parsers are installed
         ensure_installed = {
+          "bash",
           "json",
           "javascript",
           "typescript",
@@ -29,6 +30,7 @@ return {
           "gitignore",
           "python",
           "c",
+          "cpp",
           "php",
           "rust",
           "query",
